@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: ./build.sh
+      run: sudo ./build.sh
       env:
         REPO: https://github.com/SoftEtherVPN/SoftEtherVPN_Stable
         BRANCH: master
